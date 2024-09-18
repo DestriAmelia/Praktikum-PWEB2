@@ -551,14 +551,14 @@ echo "Teacher ID: " . $teacher->getTeacherID() . "<br>"; // Output: Teacher ID: 
 
 // 12. Buat objek OnlineCourse dan OfflineCourse
 
-
+```sh
 $onlineCourse = new OnlineCourse();
 echo $onlineCourse->getCourseDetails() . "<br>"; // Output: Details of Online Course.
 
 $offlineCourse = new OfflineCourse();
 echo $offlineCourse->getCourseDetails(); // Output: Details of Offline Course.
 ?>
-
+```
 
 
  # Tugas
